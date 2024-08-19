@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: blanchedalmond;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    width: 80%;
+    height: 150px;
+    text-align: center;
+}
+.inputs button {
+    font-size: 5rem;
+    padding: 10px 20px;
+    margin: 0 20px;
+    background: none;
+    border-radius: 50%;
+    transition: all 1ms ease-in-out;
+}
+
+.inputs button:hover {
+    background: hsl(0, 0%, 90%);
+}
+
+.results {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#computerResult, #PlayerResult {
+    margin: 5px;
+}
+
+#finalresult {
+    margin: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
+
+
