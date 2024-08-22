@@ -15,8 +15,8 @@ h1 {
 }
 
 .inputs {
-    width: 80%;
-    height: 150px;
+    max-width: 80%;
+    height: auto;       
     text-align: center;
 }
 .inputs button {
